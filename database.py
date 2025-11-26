@@ -6,14 +6,6 @@ import time
 import config  # 导入配置文件
 
 
-"""
-
-    请注意：
-    如果运行该文件出现问题，可能是中文路径问题，因为英文路径运行是没有问题的，但是按照作业格式更改之后无法正常运行
-    如果需要解决该问题，请讲路径全部修改为英文
-
-
-"""
 
 
 
@@ -110,4 +102,5 @@ class DataManager:
             else:
                 rank_list.append((u, 0, 0))
         rank_list.sort(key=lambda x: x[1], reverse=True)
+
         return rank_list
