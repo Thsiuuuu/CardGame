@@ -54,14 +54,6 @@ class LoginFrame(tk.Frame):
             messagebox.showerror("错误", msg)
 
 
-"""
-
-    请注意：
-    如果运行该文件出现问题，可能是中文路径问题，因为英文路径运行是没有问题的，但是按照作业格式更改之后无法正常运行
-    如果需要解决该问题，请讲路径全部修改为英文
-
-
-"""
 
 class DashboardFrame(tk.Frame):
     def __init__(self, master, controller):
@@ -315,4 +307,5 @@ class GameFrame(tk.Frame):
             msg = f"时间到！挑战失败。\n总分: {self.score}"
         messagebox.showinfo("游戏结束", msg)
         self.data_manager.add_score(self.controller.current_user, final_score, self.difficulty)
+
         self.controller.show_frame("DashboardFrame")
