@@ -4,14 +4,7 @@ import os
 import config
 from views import LoginFrame, DashboardFrame, GameFrame
 
-"""
 
-    请注意：
-    如果运行该文件出现问题，可能是中文路径问题，因为英文路径运行是没有问题的，但是按照作业格式更改之后无法正常运行
-    如果需要解决该问题，请讲路径全部修改为英文
-
-
-"""
 
 
 class MemoryGameApp(tk.Tk):
@@ -54,4 +47,5 @@ if __name__ == "__main__":
         print(f"提示: 请确保 '{config.IMG_DIR}' 目录下有图片文件。")
     
     app = MemoryGameApp()
+
     app.mainloop()
