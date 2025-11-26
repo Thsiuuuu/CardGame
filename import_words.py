@@ -13,16 +13,6 @@ import os
 """
 
 
-"""
-
-    请注意：
-    如果运行该文件出现问题，可能是中文路径问题，因为英文路径运行是没有问题的，但是按照作业格式更改之后无法正常运行
-    如果需要解决该问题，请讲路径全部修改为英文
-
-
-"""
-
-
 # 获取当前脚本文件所在的绝对路径 (也就是 实验1 文件夹的路径)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -72,4 +62,5 @@ def import_txt_to_db():
         conn.close()
 
 if __name__=="__main__":
+
     import_txt_to_db()
