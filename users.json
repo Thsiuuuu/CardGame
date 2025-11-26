@@ -1,0 +1,46 @@
+{
+    "123": {
+        "password": "1",
+        "scores": [
+            {
+                "score": 93,
+                "difficulty": "\u7b80\u5355",
+                "date": "2025-11-25 09:17"
+            },
+            {
+                "score": 94,
+                "difficulty": "\u7b80\u5355",
+                "date": "2025-11-25 09:17"
+            },
+            {
+                "score": 113,
+                "difficulty": "\u7b80\u5355",
+                "date": "2025-11-25 13:02"
+            }
+        ]
+    },
+    "0x3f3f": {
+        "password": "123456",
+        "scores": []
+    },
+    "0x3f3f3f": {
+        "password": "123456",
+        "scores": []
+    },
+    "Foodieman": {
+        "password": "123456",
+        "scores": []
+    },
+    "MAXBLAZE": {
+        "password": "123456",
+        "scores": []
+    },
+    "YuBingFan": {
+        "password": "123456",
+        "scores": []
+    },
+    "LiuS": {
+        "password": "123456",
+        "scores": []
+    }
+}
